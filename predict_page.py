@@ -92,7 +92,7 @@ def show_predict_page():
     euribor3m = st.slider('Euribor 3 month rate', min_value=1.5, max_value=6.5, step=0.001)
     nr_employed = st.slider('Number of employees', min_value=4800, max_value=5300, step=1)
     
-    st.write('  \n')
+    st.write('\n')
     # Variables related to the last contact of the current campaign
     st.write('Last Contact Info.')
     Contact = st.selectbox('Type of communication', contact)
